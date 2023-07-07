@@ -1,0 +1,73 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.expenses{
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  height: fit-content;
+  border: 2px solid black;
+}
+
+.expenses h2{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.expenses .input{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.expenses .error{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expenses button{
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.expenses .Button{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 10px;
+}
+
+.transactions{
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  height: fit-content;
+  border: 2px solid black; 
+}
+.transactions li{
+  list-style-type: none;
+}
