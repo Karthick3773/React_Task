@@ -43,7 +43,7 @@ export const Expenses = () => {
   return (
     <>
       <div className='expenses'>
-        <h2>Expenses : {previousValue}</h2>
+        <h2>Balance : {previousValue}</h2>
         <div className='input'>
           <input
             id='input'
